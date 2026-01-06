@@ -1,0 +1,22 @@
+# Web framework
+fastapi==0.110.0
+
+# ASGI server (local development only)
+uvicorn==0.29.0
+
+# Lambda adapter
+mangum==0.17.0
+
+# AWS SDK
+boto3==1.34.70
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Data validation (FastAPI dependency)
+pydantic==2.6.4
+
+
+loguru        # structured logging
+httpx         # async HTTP calls
+pytest        # testing
